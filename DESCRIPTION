@@ -1,0 +1,29 @@
+Package: pmbbEchoExtract
+Title: Extract and Process PMBB Echocardiogram Data
+Version: 0.1.0
+Authors@R: 
+    person("Sarah Abramowitz", "abramows@pennmedicine.upenn.edu", role = c("aut", "cre"))
+Description: Functions for extracting, cleaning, filtering, and processing echocardiogram 
+    data from the Penn Medicine BioBank (PMBB). Includes tools for data 
+    formatting, outlier detection, and measurement standardization.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    tidyr,
+    vroom,
+    data.table,
+    ggplot2,
+    Routliers,
+    scales,
+    cli,
+    purrr,
+    readr
+Suggests: 
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr
